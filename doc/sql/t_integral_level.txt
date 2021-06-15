@@ -1,0 +1,11 @@
+use integral-lottery;
+
+db.t_integral_level.insertMany([
+{level:"level 0",levelName:"小白",integral:NumberInt(0),rank:NumberInt(1)},
+{level:"level 1",levelName:"",integral:NumberInt(1500),rank:NumberInt(2)},
+{level:"level 2",levelName:"",integral:NumberInt(3500),rank:NumberInt(3)},
+{level:"level 3",levelName:"",integral:NumberInt(7500),rank:NumberInt(4)},
+{level:"level 4",levelName:"",integral:NumberInt(16000),rank:NumberInt(5)},
+{level:"level 5",levelName:"",integral:NumberInt(35000),rank:NumberInt(6)},
+
+]);

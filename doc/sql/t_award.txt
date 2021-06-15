@@ -1,0 +1,15 @@
+use integral-lottery;
+
+db.t_award.insertMany([
+
+{awardName:"1学币",awardIcon:"1monetary",prizeAmount:NumberInt(1),prizeType:NumberInt(1),type:NumberInt(1),rank:NumberInt(1)},
+{awardName:"谢谢参与",awardIcon:"thank",prizeAmount:NumberInt(0),prizeType:NumberInt(0),type:NumberInt(1),rank:NumberInt(2)},
+{awardName:"5学币",awardIcon:"5monetary",prizeAmount:NumberInt(5),prizeType:NumberInt(1),type:NumberInt(1),rank:NumberInt(3)},
+{awardName:"200积分",awardIcon:"icon_jifen",prizeAmount:NumberInt(200),prizeType:NumberInt(2),type:NumberInt(1),rank:NumberInt(4)},
+{awardName:"2学币",awardIcon:"2monetary",prizeAmount:NumberInt(2),prizeType:NumberInt(1),type:NumberInt(1),rank:NumberInt(5)},
+{awardName:"10积分",awardIcon:"icon_jifen",prizeAmount:NumberInt(10),prizeType:NumberInt(2),type:NumberInt(1),rank:NumberInt(6)},
+{awardName:"1学币",awardIcon:"1monetary",prizeAmount:NumberInt(1),prizeType:NumberInt(1),type:NumberInt(1),rank:NumberInt(7)},
+{awardName:"20积分",awardIcon:"icon_jifen",prizeAmount:NumberInt(20),prizeType:NumberInt(2),type:NumberInt(1),rank:NumberInt(8)},
+{awardName:"100积分",awardIcon:"icon_jifen",prizeAmount:NumberInt(100),prizeType:NumberInt(2),type:NumberInt(1),rank:NumberInt(9)},
+{awardName:"88学币",awardIcon:"88monetary",prizeAmount:NumberInt(88),prizeType:NumberInt(1),type:NumberInt(1),rank:NumberInt(10)}
+]);
